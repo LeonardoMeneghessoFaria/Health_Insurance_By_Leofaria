@@ -1,0 +1,11 @@
+id,gender,age,region_code,policy_sales_channel,driving_license,vehicle_age,vehicle_damage,previously_insured,annual_premium,vintage,response
+227621,Female,22,35.0,152.0,1,below_1_year,0,1,34653.0,185,0
+268841,Male,38,26.0,124.0,1,between_1_2_year,1,0,2630.0,42,0
+353782,Female,45,30.0,122.0,1,between_1_2_year,0,1,22751.0,138,0
+324312,Female,26,8.0,152.0,1,below_1_year,0,1,36674.0,50,0
+222583,Male,34,47.0,152.0,1,between_1_2_year,1,0,44657.0,230,0
+291457,Female,46,28.0,26.0,1,between_1_2_year,1,0,45485.0,144,1
+119930,Male,25,21.0,152.0,1,below_1_year,0,1,26665.0,281,0
+150193,Male,52,30.0,155.0,1,between_1_2_year,1,0,31236.0,30,1
+371253,Male,48,28.0,124.0,1,over_2_years,1,0,50854.0,174,0
+275772,Male,48,28.0,124.0,1,between_1_2_year,1,0,43774.0,195,1
