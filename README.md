@@ -51,27 +51,85 @@ Como resultado da minha consultoria, preciso apresentar um modelo que mostre um 
 # Estratégia de Solução
 
 O método que apliquei no projeto foi o CRISP-DM:
-- Step 01. O objetivo é usar métricas estatísticas para identificar outliers no escopo do negócio.
+- Step 01. Descrição dos dados: O objetivo é usar métricas estatísticas para identificar outliers no escopo do negócio.
 
-- Step 02. Derive novos atributos com base nas variáveis originais para descrever melhor o fenômeno a ser modelado.
+- Step 02. Feature Engineering: Derive novos atributos com base nas variáveis originais para descrever melhor o fenômeno a ser modelado.
 
-- Step 03. Filtre as linhas e selecione as colunas que não contêm informações para modelagem ou não correspondem ao escopo do negócio.
+- Step 03. Filtragem dos Dados: Filtre as linhas e selecione as colunas que não contêm informações para modelagem ou não correspondem ao escopo do negócio.
 
-- Step 04. Explore os dados para encontrar insights e entender melhor o impacto das variáveis no aprendizado do modelo.
+- Step 04. Análise Exploratória dos Dados: Explore os dados para encontrar insights e entender melhor o impacto das variáveis no aprendizado do modelo.
 
-- Step 05. Prepare os dados para que os modelos de machine learning possam aprender um comportamento específico.
+- Step 05. Preparação dos Dados: Prepare os dados para que os modelos de machine learning possam aprender um comportamento específico.
 
-- Step 06. Seleção dos atributos mais significativos para treinar o modelo.
+- Step 06. Seleção de Features: Seleção dos atributos mais significativos para treinar o modelo.
 
-- Step 07. Treinamento de modelo de machine learning.
+- Step 07. Machine Learning Modeling: Treinamento de modelo de machine learning.
 
-- Step 08. Escolha os melhores valores para cada um dos parâmetros do modelo selecionado na etapa anterior.
+- Step 08. Hyperparameter Fine Tunning: Escolha os melhores valores para cada um dos parâmetros do modelo selecionado na etapa anterior.
 
-- Step 09. Converta o desempenho do modelo em um resultado de negócios.
+- Step 09. Converta o desempenho do modelo em valores de negócios: Converta o desempenho do modelo em um resultado de negócios.
 
-- Step 10. Publique o modelo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios.
+- Step 10. Deploy do Modelo em Produção: Publique o modelo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios.
 
-- Step 11. Criação de botão de planilhas do google para mostrar a pontuação do cliente.
+- Step 11. Google Sheets: Criação de botão de planilhas do google para mostrar a pontuação do cliente.
+
+# Três principais Insights para o time de negócio
+
+- Hipótese 3 - O local de residência influi na decisão de contratar um seguro de carro.
+
+TRUE: O local de residência influi
+
+- Hipótese 6 - Pessoas com veículos mais novos tem maior tendência a contratar seguro de carro.
+
+FALSE: Pessoas com veículos entre 1 e 2 anos tendem a contratar
+
+- Hipótese 8 - Pessoas sem carta de motorista tendem a nao querer o seguro de carro.
+
+TRUE: Pessoas sem carta de motorista tendem a nao querer o seguro de carro.
+
+# Machine Learning aplicados
+
+Os testes foram realizados usando os seguintes algoritmos:
+
+KNN Classifier
+
+Logistic Regression
+
+Extra Trees Classifier
+
+Random Forest Classifier
+
+XGBoost Classifier
+
+Naive Bayes Classifier
+
+LGBM Classifier
+
+# Machine Learning Model Performance
+
+- Single Performance
+
+|Model Name                    |	Precision_at_k |Recall_at_k |
+| -----------------------------|----------------|------------|
+|LGBM Classifier               |0.333933        |0.707671	   |
+|XGBoost Classifier	           |0.333433	       |0.706612	   |
+|Random Forest Classifier	     |0.306385        |0.649290	   |
+|Extra Trees Classifier	       |0.302985        |0.642085    |
+|Naive Bayes Classifier	       |0.296485	       |0.628311	   |
+|KNN Classifier	               |0.295685	       |0.626616	   |
+|Logistic Regression Classifier|0.289486	       |0.613477	   |
+
+- Real Performance - Cross Validation
+
+|Model Name                    |	Precision_at_k |Recall_at_k    |
+| -----------------------------|----------------|---------------|
+|LGBM Classifier               |0.311 +/- 0.001 |0.83 +/- 0.002	|
+|XGBoost Classifier	           |0.309 +/- 0.001	|0.827 +/- 0.002|
+|Random Forest Classifier	     |0.293 +/- 0.002 |0.783 +/- 0.005|
+|Extra Trees Classifier	       |0.29 +/- 0.002  |0.774 +/- 0.005|
+|Naive Bayes Classifier	       |0.291 +/- 0.001	|0.776 +/- 0.003|
+|KNN Classifier	               |0.285 +/- 0.002	|0.762 +/- 0.005|
+|Logistic Regression Classifier|0.277 +/- 0.002	|0.74 +/- 0.006	|
 
 
 
