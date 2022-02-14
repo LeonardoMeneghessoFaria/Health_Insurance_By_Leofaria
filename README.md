@@ -159,8 +159,9 @@ R: O percentual de clientes interessados realizando 20.000 ligações chegará a
 R: O percentual de clientes interessados realizando 40.000 ligações chegará a 90% dos clientes.
 
 4. Quantas ligações a equipe de vendas precisa fazer para entrar em contato com 80% dos clientes interessados em adquirir um seguro auto?
-R:
+R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que fazer mais ou menos 23000 ligações
 
+![image](https://user-images.githubusercontent.com/87080266/153956704-468d8c28-d5eb-4a66-a881-451d06297978.png)
 
 
 
