@@ -165,7 +165,45 @@ R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que f
 
 - Resumo do Gráfico : supondo que cada seguro de veículo foi vendido a 1900 e sabendo que 71% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 19.000.000, 00.
 
+# O modelo em produção executando o rankeamento dos clientes
 
+A implantação deste modelo foi feita no HEROKU, lá está funcionando em produção na nuvem. Para testá-lo, foi feito um link entre uma planilha do Google e o Heroku contendo um novo conjunto de dados com clientes que não foram pesquisados. Dentro da planilha foi criado um botão chamado 'Propensity Score' com a função 'Get Prediction', ele entregará um propensity score de cada cliente em uma coluna chamada 'Score'. Uma amostra desse conjunto de dados não ordenado é mostrada na figura abaixo.
+
+![image](https://user-images.githubusercontent.com/87080266/153965661-fd774491-5680-4028-aad6-10d2b0f904c5.png)
+ 
+# Conclusão
+
+Por fim, fica claro que se a equipe de vendas ligar para as pessoas sem classificá-las, seu custo e esforço seriam exorbitantes, por exemplo, de acordo com este modelo com uma lista de clientes classificados se chamados 40.000 pessoas de 127.000 o resultado de clientes interessados deve chegar a 90%, consequentemente os outros 87.000 clientes não devem ser chamados por falta de interesse em comprar um seguro de carro. Portanto, este caso de negócios é classificado como um problema de classificação por rankeamento, quanto melhor classificado, menos esforço precisa ser feito. Com uma série de recursos que caracterizam os potenciais clientes, este modelo mostrou à equipe como focar seus atendimentos para reduzir custos e aumentar seus ganhos.
+
+#  Próximos passos para melhorar o modelo
+
+Iniciar um segundo ciclo para analisar o problema, buscando diferentes abordagens, principalmente considerando o balanceamento desse conjunto de dados.
+
+Possíveis pontos a serem abordados no segundo ciclo:
+
+- Trabalhar com novas combinações de recursos
+
+- Balance o conjunto de dados
+
+- Criar uma lógica dentro do google script para reordenar minha tabela ao pegar a pontuação, ordenando-a ascendente
+
+- Experimente novos modelos após o equilíbrio
+
+- Trabalhar com um método mais robusto para encontrar os melhores parâmetros Hyper para o modelo
+
+# Tecnologias Utilizadas
+
+- Python;
+- Postgres;
+- Jupyter Notebook;
+- Heroku;
+- Machine Learning.
+ 
+# Autor
+
+Leonardo Meneghesso Faria
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/leonardo-meneghesso-faria-92553b155/)
 
 
 
