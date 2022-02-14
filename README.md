@@ -163,7 +163,7 @@ R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que f
 
 ![image](https://user-images.githubusercontent.com/87080266/153957532-595893b1-d0ad-4284-935d-d4cdbd1286ba.png)
 
-- Resumo do Gráfico : supondo que cada seguro de veículo foi vendido a 1900 e sabendo que 71% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 19.000.000, 00.
+- Resumo do Gráfico : supondo que cada seguro de veículo foi vendido a 1900 e sabendo que 80% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 19.000.000, 00.
 
 # O modelo em produção executando o rankeamento dos clientes
 
