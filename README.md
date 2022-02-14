@@ -161,8 +161,9 @@ R: O percentual de clientes interessados realizando 40.000 ligações chegará a
 4. Quantas ligações a equipe de vendas precisa fazer para entrar em contato com 80% dos clientes interessados em adquirir um seguro auto?
 R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que fazer mais ou menos 23000 ligações
 
-![image](https://user-images.githubusercontent.com/87080266/153956704-468d8c28-d5eb-4a66-a881-451d06297978.png)
+![image](https://user-images.githubusercontent.com/87080266/153957532-595893b1-d0ad-4284-935d-d4cdbd1286ba.png)
 
+- Resumo do Gráfico : supondo que cada seguro de veículo foi vendido a 1900 e sabendo que 71% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 19.000.000, 00.
 
 
 
