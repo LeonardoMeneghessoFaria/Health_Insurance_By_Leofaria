@@ -131,6 +131,36 @@ LGBM Classifier
 |KNN Classifier	               |0.285 +/- 0.002	|0.762 +/- 0.005|
 |Logistic Regression Classifier|0.277 +/- 0.002	|0.74 +/- 0.006	|
 
+O LGBM Classifier tem o melhor desempenho e é mais leve que os demais classificadores então ele foi escolhido para continuar o projeto.
+
+- Final Performance - Hyperparameter Fine Tunning Cross Validation
+
+Depois de encontrar os melhores parâmetros para o modelo por meio do método de pesquisa aleatória, as métricas finais para o modelo foram as seguintes:
+
+|Model Name                    |	Precision_at_k |Recall_at_k    |
+| -----------------------------|----------------|---------------|
+|LGBM Classifier               |0.305 +/- 0.0   |0.814 +/- 0.0 	|
+|LGBM Classifier               |0.305 +/- 0.0	  |0.814 +/- 0.001|
+|LGBM Classifier               |0.311 +/- 0.0   |0.832 +/- 0.002|
+|LGBM Classifier               |0.305 +/- 0.0   |0.814 +/- 0.001|
+|LGBM Classifier               |0.311 +/- 0.001 |0.83 +/- 0.002 |
+
+# Desempenho do modelo em valores de receita
+
+Com o modelo construído e utilizado, consigo responder as perguntas iniciais do desafio.
+
+1. Os atributos mais relevantes dos clientes interessados em adquirir um seguro automóvel.
+R: Os atributos mais relevantes são: "vintage", "annual_premium", "age", "region_code", "vehicle_damage", "policy_sales_channel".
+ 
+2. Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel que a equipe de vendas poderá contatar fazendo 20.000 ligações?
+R: O percentual de clientes interessados realizando 20.000 ligações chegará a 69% dos clientes. 
+
+3. E se a capacidade da equipe de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel que a equipe de vendas poderá contatar?
+R: O percentual de clientes interessados realizando 40.000 ligações chegará a 90% dos clientes.
+
+4. Quantas ligações a equipe de vendas precisa fazer para entrar em contato com 80% dos clientes interessados em adquirir um seguro auto?
+R:
+
 
 
 
