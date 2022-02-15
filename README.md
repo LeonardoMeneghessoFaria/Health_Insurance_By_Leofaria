@@ -163,9 +163,9 @@ R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que f
 
 ![image](https://user-images.githubusercontent.com/87080266/153957532-595893b1-d0ad-4284-935d-d4cdbd1286ba.png)
 
-- Resumo do Gráfico: 
+- Resumo do Gráfico: no gráfico apresentado nós podemos observar que na linha laranja (Class 1) ela mostra pra gente a projeção do nosso rankeamento, ou seja, que nos primeiros 20% da nossa base de dados (Percentage of sample), podemos ver que atingimos 60% dos interessados (Gain) em possuir o plano de seguro de veículo e assim por diante.
 
-- Resumo de Negócio : supondo que cada seguro de veículo foi vendido a 1900 e sabendo que 80% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 19.000.000, 00.
+- Resumo de Negócio : supondo que cada seguro de veículo foi vendido a 2000 e sabendo que 80% dos interessados representam 90.170 clientes, vamos considerar que 10.000 de 90.170  aceitaram adquirir este seguro, isso seria um lucro de R$ 20.000.000, 00 sem fazer ligações para pessoas que não estariam interessadas no seguro de veículo.
 
 # O modelo em produção executando o rankeamento dos clientes
 
