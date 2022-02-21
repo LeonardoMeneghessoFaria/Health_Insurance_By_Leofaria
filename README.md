@@ -163,7 +163,7 @@ R: Para chegar a 80% dos clientes nas ligações, a equipe de vendas terá que f
 
 ![image](https://user-images.githubusercontent.com/87080266/154992308-cee06130-e83c-406e-8007-7ed4d66c5ae4.png)
 
-- Resumo do Gráfico: no gráfico apresentado nós podemos observar que na linha laranja (Class 1) ela demonstra a projeção do nosso rankeamento, ou seja, que nos primeiros 20% da nossa base de dados (Percentage of sample), podemos ver que atingimos 60% dos interessados (Gain) em possuir o plano de seguro de veículo e já a escolha aleatória atingiria 20% dos interessados, então observamos que o modelo treinado teria um ganho de 3 vezes mais que a escolha aleatória ,sendo assim, o modelo irá endereçar 3 vezes mais clientes propensos a adquirir o seguro de carro.
+- Resumo dos Gráficos: nos gráficos apresentado nós podemos observar que na linha laranja (Class 1) ela demonstra a projeção do nosso rankeamento, ou seja, que nos primeiros 20% da nossa base de dados (Percentage of sample), podemos ver que atingimos 60% dos interessados (Gain) em possuir o plano de seguro de veículo e já a escolha aleatória atingiria 20% dos interessados, então observamos que o modelo treinado teria um ganho de 3 vezes mais que a escolha aleatória ,sendo assim, o modelo irá endereçar 3 vezes mais clientes propensos a adquirir o seguro de carro.
 
 - Resumo de Negócio : supondo que cada seguro de veículo foi vendido a 2000 e sabendo que 80% dos interessados representam 90.240 clientes, vamos considerar que 10.000 de 90.240  aceitaram adquirir este seguro, isso seria um lucro de R$ 20.000.000, 00 sem fazer ligações para pessoas que não estariam interessadas no seguro de veículo.
 
